@@ -3,14 +3,21 @@
 <head>
     <title>Logger</title>
 </head>
-<body>
+<body>    
+    <script>
+        console.log("Testing 123");
+        function handleButton() {
+            console.log("Button Clicked");
+        }
+    </script>
     <h1>Log Entries</h1>
     <form>
         <div>
             <label>Enter the task</label>
             <input type="text" id="entry"/>
         </div>
-        <input type="submit" value="Log IT!!"></form> 
+        <input type="submit" value="Log IT!!" onclick="handleButton()"></form> 
     </form>
+
 </body>
 </html>
